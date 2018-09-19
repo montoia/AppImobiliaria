@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_confirmar"
+        app:showAsAction="always"
+        android:title="Confirmar"
+        android:icon="@android:drawable/ic_input_add"/>
+
+    <item
+        android:id="@+id/menu_foto"
+        app:showAsAction="ifRoom"
+        android:title="Camera"
+        android:icon="@android:drawable/ic_menu_camera"/>
+    <item
+        android:id="@+id/menu_cancelar"
+        app:showAsAction="ifRoom"
+        android:title="Cancelar"
+        android:icon="@android:drawable/ic_delete"/>
+</menu>

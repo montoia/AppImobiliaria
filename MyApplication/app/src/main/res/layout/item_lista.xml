@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0sp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="85">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:textSize="18sp"
+            android:text="Limpeza"
+            android:id="@+id/txtSetor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4sp"
+            android:textSize="24sp"
+            android:text="Sabão em po"
+            android:id="@+id/txtProduto"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="5"
+            android:id="@+id/lista">
+        </ListView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:padding="4sp"
+        android:textSize="32sp"
+        android:text="5"
+        android:id="@+id/txt_qtd"/>
+</LinearLayout>
